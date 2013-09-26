@@ -1,0 +1,7 @@
+﻿<EntityDescriptor entityID="LaunchSSO" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+	<IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://172.5.149.178/SAML/SLOService"/>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://172.5.149.178/SAML/AssertionConsumerService"/>
+	</IDPSSODescriptor>
+</EntityDescriptor>
